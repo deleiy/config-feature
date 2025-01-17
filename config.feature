@@ -2,7 +2,7 @@ Funcionalidade: Seleção de produtos
 
   Cenário: Validação das seleções de produdos  
     Dado que o usuário acessa a página de seleção de mercadoria
-    Quando o usuário tenta finalizar a compra sem selecionar cor, tamanho e quantidade
+    Quando o usuário tenta finalizar a compra sem selecionar "cor, tamanho e quantidade"
     Então o sistema deve exibir uma mensagem de erro indicando que as seleções são obrigatórias
 
   Cenário: Limite de produtos por venda
