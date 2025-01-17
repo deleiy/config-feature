@@ -12,7 +12,7 @@ Funcionalidade: Seleção de produtos
 
   Esquema de Cenário: Limpar seleções
     Dado que o usuário selecionou a "<cor>" "<tamanho>" e "<quantidade>"
-    Quando clica no botão "limpar"
+    Ao clica no botão "limpar"
     Então as opções devem voltar ao estado original
 
     Exemplos:
